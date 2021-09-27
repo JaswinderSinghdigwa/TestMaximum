@@ -7,7 +7,8 @@ public class TestMaximum {
 			if(y.compareTo(max)>0) {
 				max=y;		
 		}
-		if(x[0]==max) {
+			
+		if(x[1]==max) {
 			System.out.println("first element is maximum no");
 		}
 	}
