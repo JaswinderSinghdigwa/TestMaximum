@@ -1,14 +1,17 @@
 package com.bl.generic;
 
 public class TestMaximum {
-	public static Integer maxInteger(Integer x, Integer y, Integer z ) {
-		Integer max = x;
-		if(y.compareTo(max)>0)
-			max=y;
-		if(z.compareTo(max)>0) {
-			max=z;
-			return max;
+	public static Integer maxInteger(Integer x[] ) {
+		Integer max =x[0];
+		for (Integer y : x) {
+			if(y.compareTo(max)>0) {
+				max=y;		
 		}
-		return max;
+		if(x[0]==max) {
+			System.out.println("first element is maximum no");
+		}
 	}
+	return max;
+	}
+	
 }
