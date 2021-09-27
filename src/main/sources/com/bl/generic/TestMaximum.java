@@ -1,15 +1,15 @@
 package com.bl.generic;
 
 public class TestMaximum {
-	public static Integer maxInteger(Integer x[] ) {
-		Integer max =x[0];
-		for (Integer y : x) {
+	public static Double maxDouble(Double[] y2 ) {
+		Double max =y2[0];
+		for (Double y : y2) {
 			if(y.compareTo(max)>0) {
 				max=y;		
 		}
-			
-		if(x[2]==max) {
-			System.out.println("first element is maximum no");
+			//Third no maximum
+		if(y2[2]==max) {
+			System.out.println("third element is maximum no");
 		}
 	}
 	return max;
