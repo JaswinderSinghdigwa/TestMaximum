@@ -8,7 +8,7 @@ public class TestMaximum {
 				max=y;		
 		}
 			
-		if(x[1]==max) {
+		if(x[2]==max) {
 			System.out.println("first element is maximum no");
 		}
 	}
