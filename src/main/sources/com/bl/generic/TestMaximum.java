@@ -6,7 +6,7 @@ public class TestMaximum<E> {
 	private E thirdvalue;
 	private E[] extraparameter;
 	public TestMaximum(E firstvalue, E secndvalue, E thirdvalue, E... extraparameter) {
-		super();
+
 		this.firstvalue = firstvalue;
 		this.secndvalue = secndvalue;
 		this.thirdvalue = thirdvalue;
@@ -27,6 +27,9 @@ public class TestMaximum<E> {
 					}
 				}
 			}
-	return max;
+			return max;
+	}
+	public static <E>void print(E max) {
+		System.out.println("Maximum<data> of generic is :"+max);
 	}
 }
